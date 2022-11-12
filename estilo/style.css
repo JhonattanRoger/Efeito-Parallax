@@ -23,20 +23,18 @@ html, body {
 }
 
 header {
-    background-color: black;
+    background-color: black;   
+    background-size: cover;    
     color: white;
     text-align: center;
     font-family: var(--font2);
-    font-size: 6vw;
+    font-size: 3vw;
 }
 
 header > h1 {
     padding-top: 50px;
+    padding-bottom: 25px;
     font-variant: small-caps;
-}
-
-header > p {
-    padding-bottom: 50px;
 }
 
 header a, footer a {
@@ -49,32 +47,60 @@ header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
-section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+section {    
+    padding-top: 4vh;
+    padding-bottom: 16vh;
     padding-left: 30px;
+    padding-right: 30px;
     font-family: var(--font3);
-    font-size: 3vw;
+    font-size: 2em;
 }
 
+section > p  {
+    padding-bottom: 1em;
+}
+
+
 section.normal {
+    height: 500px;
     background-color: white;
     color: black;
+    text-align: justify;
+    padding-top: 50px;
 }
 
 section.imagem {
+    height: 300px;
     background-color: rgb(44, 41, 41);
     color: white;
     box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.63);
     background-size: cover;
     background-attachment: fixed;
+    text-align: center;
+    font-weight: 400;  
+     
+}
+
+section.centralizar {
+    padding-top: 350px;
+   
+}
+
+section.normal > ul {
+    
+    margin-top: 30px;
+    padding-left: 30px;
+   
 }
 
 section.imagem > p {
     display: inline-block;
+    margin-top: 100px;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.541);
     text-shadow: 1px 1px 0 black;
+    font-size: 4vw;
+   
 
 }
 
