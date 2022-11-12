@@ -65,16 +65,67 @@ section.normal {
 section.imagem {
     background-color: rgb(44, 41, 41);
     color: white;
+    box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.63);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.541);
+    text-shadow: 1px 1px 0 black;
 
 }
 
-
+section#planetas {
+    background-image: url(../imagens/planetas.jpeg);
+    
+}
+section#sol {
+    background-image: url(../imagens/sol.jpg);
+    
+}
+section#mercurio {
+    background-image: url(../imagens/mercurio.jpg);
+    background-position: right center;
+    
+}
+section#venus {
+    background-image: url(../imagens/venus.jpg);
+    background-position: right center;
+    
+}
+section#terra {
+    background-image: url(../imagens/terra.jpg);
+    background-position: left center;
+    
+}
+section#marte {
+    background-image: url(../imagens/marte.jpg);
+    background-position: right center;
+    
+}
+section#jupiter {
+    background-image: url(../imagens/jupiter.png);
+    background-position: right center;
+    
+}
+section#saturno {
+    background-image: url(../imagens/saturno.jpg);
+    background-position: right center;
+    
+}
+section#urano {
+    background-image: url(../imagens/urano.jpg);
+    background-position: right center;
+    
+}
+section#netuno {
+    background-image: url(../imagens/netuno.jpg);
+    background-position: right center;
+    
+}
 
 
 
